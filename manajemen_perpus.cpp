@@ -32,31 +32,6 @@ DaftarBuku.close();
 
 
 int main() {
-    buatfile();
-
-    string judul, penulis, penerbit;
-    int tahunterbit;
-
-    cout << "Masukkan judul buku: ";
-    getline(cin, judul); 
-    cout << "Masukkan nama penulis: ";
-    getline(cin, penulis);
-
-    cout << "Masukkan nama penerbit: ";
-    getline(cin, penerbit);
-
-    cout << "Masukkan tahun terbit buku: ";
-    cin >> tahunterbit;
-
-    databuku buku;
-    buku.judul = judul;
-    buku.penulis = penulis;
-    buku.penerbit = penerbit;
-    buku.tahunterbit = tahunterbit;
-
-    tambahbuku(buku);
-
-    cout << "Buku berhasil ditambahkan ke file!" << endl;
-
+   
     return 0;
 }
