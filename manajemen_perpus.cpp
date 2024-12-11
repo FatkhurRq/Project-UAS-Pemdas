@@ -21,6 +21,16 @@ void tambahbuku(const databuku & buku) {
     TambahBuku.close();
 }
 
+void daftarbuku() {
+    ifstream DaftarBuku("FileBuku.txt"); 
+    string outputTeks;
+    while (getline (DaftarBuku, outputTeks)){
+        cout << outputTeks;
+    } 
+DaftarBuku.close();
+}
+
+
 int main() {
     buatfile();
 
