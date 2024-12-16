@@ -1,0 +1,4 @@
+1 buku dengan judul puisi senja, dipinjam, 12-02-24
+2 buku puisi malam, dipinjam, 12-02-24,
+3 buku cerita rakyat, dipinjam, 12-02-24,
+4 buku sains, dipinjam, 12-02-24,
